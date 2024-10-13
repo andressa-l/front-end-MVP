@@ -33,7 +33,7 @@ body {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
-  background-image: url('/img/brasil.png');
+  background-image: url('../img/brasil.png');
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 10px center;
@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 .hero {
-  background-image: url('/img/fundo-1.png');
+  background-image: url('img/fundo-1.png');
   background-size: cover;
   background-position: center;
   height: 400px;
