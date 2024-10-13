@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIVAHOTEL.com - Sua Estadia Perfeita</title>
+  <!-- <link rel="stylesheet" href="/globals.css" /> -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-content">
+      <h1 class="logo">VIVAHOTEL.com</h1>
+      <nav class="mobile-menu">
+        <ul>
+          <li><a href="#hoteis">Hotéis</a></li>
+          <li><a href="#anunciar">Anuncie sua propriedade</a></li>
+          <li>
+            <select class="currency-select">
+              <option value="BRL">BRL </option>
+              
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+            </select>
+            
+          </li>
+        </ul>
+      </nav>
+      <a href="page-login/login.html" class="login-button">Login</a>
+    </div>
+    <div class="hero hero-background">
+      <h2>CONFORTO<br>VOCÊ SÓ<br>ENCONTRA AQUI</h2>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <form class="search-form">
+        <input type="text" placeholder="Pesquisar hotéis" class="search-input">
+        <input type="date" placeholder="Check-in" class="date-input">
+        <input type="number" placeholder="Hóspedes" min="1" class="guests-input">
+        <button type="submit" class="search-button">Pesquisar</button>
+      </form>
+    </section>
+
+    <section class="featured-cities">
+      <h2>Cidades em Destaque</h2>
+      <div class="city-grid">
+        <a href="page-buscar/buscar1.html" class="city-card">
+          <img src="img/aracaju-1.png" alt="Aracaju">
+          <h3>ARACAJU</h3>
+        </a>
+        <a href="page-buscar/buscar2.html" class="city-card">
+          <img src="img/salvador-1.png" alt="Salvador">
+          <h3>SALVADOR</h3>
+        </a>
+        <a href="page-buscar/buscar3.html" class="city-card">
+          <img src="img/rio-de-janeiro-1.png" alt="Rio de Janeiro">
+          <h3>RIO DE JANEIRO</h3>
+        </a>
+        <a href="page-buscar/buscar4.html" class="city-card">
+          <img src="img/gramado.png" alt="Gramado">
+          <h3>GRAMADO</h3>
+        </a>
+      </div>
+    </section>
+
+    <section class="featured-hotels">
+      <h2>Hotéis em Destaque</h2>
+      <div class="hotel-grid">
+        <!-- Repita este bloco para cada hotel -->
+        <div class="hotel-card">
+          <img src="/img/vidam.png" alt="Vidam Hotel">
+          <h3>Vidam Hotel</h3>
+        </div>
+        <div class="hotel-card">
+          <img src="/img/aquarios.png" alt="Vidam Hotel">
+          <h3>Aquarios Praia Hotel</h3>
+        </div>
+        <div class="hotel-card">
+          <img src="/img/del-mar.png" alt="Vidam Hotel">
+          <h3>Aquarios Praia Hotel</h3>
+        </div>
+        <div class="hotel-card">
+          <img src="/img/hotel-da-costa.png" alt="Vidam Hotel">
+          <h3>Aquarios Praia Hotel</h3>
+        </div>
+        <div class="hotel-card">
+          <img src="/img/ibis.png" alt="Vidam Hotel">
+          <h3>Aquarios Praia Hotel</h3>
+        </div>
+        <div class="hotel-card">
+          <img src="/img/quality.png" alt="Vidam Hotel">
+          <h3>Aquarios Praia Hotel</h3>
+        </div>
+        <!-- ... outros hotéis ... -->
+      </div>
+    </section>
+
+    <section class="price-chart">
+      <h2>Média de preço por mês</h2>
+      <div class="chart-container">
+        <!-- gráfico interativo com JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 VivaHotel. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
