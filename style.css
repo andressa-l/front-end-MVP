@@ -33,7 +33,7 @@ body {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
-  background-image: url('../img/brasil.png');
+  background-image: url('img/brasil.png');
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 10px center;
@@ -89,7 +89,7 @@ nav ul li a {
 /* Search Section */
 .search-section {
   background-color: #ddaa52;
-  padding: 2rem 0;
+  padding: 1.5rem 1.5rem;
 }
 
 .search-form {
@@ -233,6 +233,7 @@ footer {
     right: 0;
     background-color: #2f4f4f;
     padding: 1rem;
+    z-index: 10;
   }
 
   nav ul.show-mobile-menu li {
